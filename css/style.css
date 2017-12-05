@@ -1,0 +1,48 @@
+#header {
+	background-color: #c4242c;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: "Carrois Gothic SC", sans-serif;
+}
+
+#topImageL {
+    width: 11%;
+    height: 11%;
+	float: left;
+	margin-left: 60px;
+}
+
+#topImageR {
+    width: 11%;
+    height: 11%;
+	float: right;
+	margin-right: 60px;
+}
+
+
+label {
+	font-size: 18px;
+}
+
+#action {
+	margin: 5px;
+}
+
+#giphySearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Carrois Gothic SC", sans-serif;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.imgGiphy {
+	padding: 2px;
+	width: 80%;
+}
