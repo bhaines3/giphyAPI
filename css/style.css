@@ -4,8 +4,12 @@
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
-    font-family: "Carrois Gothic SC", sans-serif;
+    font-family: "Play", sans-serif;
     max-height: 191px;
+}
+
+body {
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/gplaypattern.png);
 }
 
 #topImageL {
@@ -33,7 +37,7 @@ label {
 #giphySearch {
 	margin: 0 auto;
 	text-align: center;
-	font-family: "Carrois Gothic SC", sans-serif;
+	font-family: "Play", sans-serif;
 }
 
 #gifArea {
@@ -45,9 +49,9 @@ label {
 .imgGiphy {
 	padding: 2px;
 	width: 80%;
+
 }
 
-.gifButtons:hover, .gifButtons:active {
-    color: rgb(155, 184, 28);
-    font-size: 110%;
-}
+
+
+  

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body id="wholeThing">
@@ -14,25 +14,29 @@
   <img id="topImageL" src="https://media2.giphy.com/media/104ueR8J1OPM2s/200w.webp#4-grid1">
   <img id="topImageR" src="https://media1.giphy.com/media/wi8Ez1mwRcKGI/200.webp#0-grid1">
   <h1>Back In A Gif!</h1>
-  <h4>Click the buttons to display GIFs of your favorite actions/reactions <br>Click the GIFs to pause and play<br>Search to add more buttons!</h4>
+  <h4>Click the buttons to display GIFs of your favorite emotions <br>Click the GIFs to pause and play<br>Search to add your own buttons!</h4>
 </div>
 
 <form class="form-inline" id="giphySearch">
   <div class="form-group">
-    <label for="giphyInput">Search for an Action or Reaction...Just Do It!!</label>
+    <label for="giphyInput">Search for an Emotion...Just Do It!!</label>
     <input type="text" id="giphyInput">
   </div>
   <!-- Button triggers show to be added -->
-  <input id="addGif" type="submit" value="submit">
+  <input id="addGif" type="submit" value="Seriously...JUST DO IT!">
 </form>
 
 <div class="row text-center">
   <div class="container">
     <div class="btn-group gifButtons inline text-center">
-      <button class="btn btn-info" id="action" data-search="Eye Roll">Eye Roll</button>
-      <button class="btn btn-info" id="action" data-search="Dancing">Dancing</button>
-      <button class="btn btn-info" id="action" data-search="High Five">High Five</button>
-      <button class="btn btn-info" id="action" data-search="Sad">Sad</button>
+      <button class="btn btn-info active" id="action" data-search="Excited">Excited</button>
+      <button class="btn btn-info active" id="action" data-search="Nervous">Nervous</button>
+      <button class="btn btn-info active" id="action" data-search="Confused">Confused</button>
+      <button class="btn btn-info active" id="action" data-search="Sad">Sad</button>
+      <button class="btn btn-info active" id="action" data-search="Tired">Tired</button>
+      <button class="btn btn-info active" id="action" data-search="Frustrated">Frustrated</button>
+      <button class="btn btn-info active" id="action" data-search="Bored">Bored</button>
+      <button class="btn btn-info active" id="action" data-search="Surprised">Surprised</button>
 
       <div id="myButtons"></div>
     </div> <!--end of button group -->
