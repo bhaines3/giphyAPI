@@ -4,23 +4,23 @@
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
-	font-family: "Carrois Gothic SC", sans-serif;
+    font-family: "Carrois Gothic SC", sans-serif;
+    max-height: 191px;
 }
 
 #topImageL {
     width: 11%;
-    height: 11%;
+    max-height: 171px;;
 	float: left;
 	margin-left: 60px;
 }
 
 #topImageR {
     width: 11%;
-    height: 11%;
+    max-height: 171px;
 	float: right;
 	margin-right: 60px;
 }
-
 
 label {
 	font-size: 18px;
@@ -45,4 +45,9 @@ label {
 .imgGiphy {
 	padding: 2px;
 	width: 80%;
+}
+
+.gifButtons:hover, .gifButtons:active {
+    color: rgb(225, 231, 231);
+    font-size: 110%;
 }
