@@ -8,6 +8,7 @@ $(document).ready(function() {
     
         var search = $(this).data("search");
         console.log(search);
+        $("#gifArea").empty();
     
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=dc6zaTOxFJmzC&limit=10";
     
@@ -21,7 +22,7 @@ $(document).ready(function() {
                 console.log(results);
                 for (var i = 0; i < results.length; i++) {
                 
-                var showDiv = $("<div class='col-md-3'>");
+                var showDiv = $("<div class='col-md-4'>");
     
                 var rating = results[i].rating;
                 var defaultAnimatedSrc = results[i].images.fixed_height.url;
@@ -67,7 +68,7 @@ $(document).ready(function() {
     
       displayButtons();
     
-      //Click event on button with id of "show" executes displayGiphy function
+      //Click event on button with id of "action" executes displayGiphy function
       $(document).on("click", "#action", displayGiphy);
     
       //Click event on gifs with class of "imgGiphy" executes pausePlayGifs function

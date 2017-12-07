@@ -45,9 +45,12 @@ label {
 	max-height: 100%;
 }
 
-.col-md-3 {
+.col-md-4 {
 	text-align: center;
 }
 
+p {
+	padding: 10px;
+}
 
   
