@@ -47,11 +47,14 @@ label {
 }
 
 .imgGiphy {
-	padding: 2px;
-	width: 80%;
-
+	padding: 10px;
+	max-width: 90%;
+	max-height: 90%;
 }
 
+.col-md-4 {
+	
+}
 
 
   

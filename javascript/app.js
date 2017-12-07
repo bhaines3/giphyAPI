@@ -6,10 +6,10 @@ $(document).ready(function() {
       //Create div with respective still and animate image sources with "data-state", "data-still" and "data-animate" attributes
          function displayGiphy() {
     
-        var x = $(this).data("search");
-        console.log(x);
+        var search = $(this).data("search");
+        console.log(search);
     
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=dc6zaTOxFJmzC&limit=10";
     
         console.log(queryURL);
     
@@ -70,7 +70,7 @@ $(document).ready(function() {
       //Click event on button with id of "show" executes displayGiphy function
       $(document).on("click", "#action", displayGiphy);
     
-      //Click event on gifs with class of "netflixGiphy" executes pausePlayGifs function
+      //Click event on gifs with class of "imgGiphy" executes pausePlayGifs function
       $(document).on("click", ".imgGiphy", pausePlayGifs);
     
       //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-still"
