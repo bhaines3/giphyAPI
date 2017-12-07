@@ -21,7 +21,7 @@ $(document).ready(function() {
                 console.log(results);
                 for (var i = 0; i < results.length; i++) {
                 
-                var showDiv = $("<div class='col-md-4 text-center'>");
+                var showDiv = $("<div class='col-md-3'>");
     
                 var rating = results[i].rating;
                 var defaultAnimatedSrc = results[i].images.fixed_height.url;
@@ -34,7 +34,7 @@ $(document).ready(function() {
                 showImage.attr("data-state", "still");
                 showImage.attr("data-still", staticSrc);
                 showImage.attr("data-animate", defaultAnimatedSrc);
-                showDiv.append(p);
+                showDiv.prepend(p);
                 showDiv.append(showImage);
                 $("#gifArea").prepend(showDiv);
     

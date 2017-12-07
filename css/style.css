@@ -40,20 +40,13 @@ label {
 	font-family: "Play", sans-serif;
 }
 
-#gifArea {
-	clear: both;
-	display: inline;
-	flex-wrap: wrap;
-}
-
 .imgGiphy {
-	padding: 10px;
-	max-width: 90%;
-	max-height: 90%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.col-md-4 {
-	
+.col-md-3 {
+	text-align: center;
 }
 
 
